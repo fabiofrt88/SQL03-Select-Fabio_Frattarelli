@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Driver {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args){
 
         Connection connection = null;
 
