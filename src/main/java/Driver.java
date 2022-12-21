@@ -32,6 +32,8 @@ public class Driver {
 
             surnames.stream().forEach(System.out::println);
 
+            statement.close();
+
         } catch (SQLException e){
             System.out.println(e.getMessage());
         } finally {
